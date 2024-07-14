@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -28,18 +28,18 @@ html {
 }
 .button {
   font-family: Fira Sans Condensed, sans-serif;
-  font-size:18px;
+  font-size: 18px;
   font-weight: 700;
   min-height: 34px;
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
-} 
+}
 .button:focus {
-  border:0;
-  outline:none;
-  box-shadow:none;
+  border: 0;
+  outline: none;
+  box-shadow: none;
 }
 .button:active {
   background-color: #545050;
@@ -50,7 +50,7 @@ html {
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-  border:1px solid #fff;
+  border: 1px solid #fff;
 }
 
 h1,
@@ -75,10 +75,9 @@ ol {
   display: flex;
   max-width: 1140px;
   padding: 133px 30px;
-  gap:30px;
+  gap: 30px;
   align-items: flex-end;
   /* margin: auto; */
-
 }
 
 .result {
@@ -86,73 +85,72 @@ ol {
   flex-direction: column;
   /* min-width: 711px;
   min-height: 456px; */
-  gap:16px;
-
+  gap: 16px;
 }
 
-.result__video-container{
+.result__video-container {
   position: relative;
   min-width: 711px;
   min-height: 386px;
 }
 
-.result__video{
+.result__video {
   width: 711px;
   height: 386px;
   object-fit: cover;
 }
 
-.search-form{
+.search-form {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.search-form__fieldset{
+.search-form__fieldset {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   border: 0;
   gap: 5px;
 }
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   font-family: Fira Sans Condensed, sans-serif;
-  font-weight:400;
+  font-weight: 400;
   line-height: 22px;
-  font-size:18px;
+  font-size: 18px;
 }
-.search-form__label{
+.search-form__label {
   display: flex;
   width: fit-content;
   cursor: pointer;
 }
-.search-form__checkbox-list{
+.search-form__checkbox-list {
   display: flex;
   gap: 15px;
 }
-.search-form__pseudo-checkbox{
+.search-form__pseudo-checkbox {
   margin-right: 5px;
   width: 19px;
   height: 19px;
-  border: 1px solid #fff;  
+  border: 1px solid #fff;
 }
 
-.search-form__pseudo-checkbox:active{
+.search-form__pseudo-checkbox:active {
   background-color: #ffffff;
   outline: 1px solid #000;
-  outline-offset:-2px;
-  border: 1px solid #fff; 
+  outline-offset: -2px;
+  border: 1px solid #fff;
 }
 /* .search-form__checkbox:disabled +span {
   background-color: #00ff37;
   width: 19px;
   height: 19px;
 }  */
-.search-form__checkbox:checked +span { 
- background-color: #ffffff;
- outline: 1px solid #000;
- outline-offset:-2px;
-} 
+.search-form__checkbox:checked + span {
+  background-color: #ffffff;
+  outline: 1px solid #000;
+  outline-offset: -2px;
+}
 /* .search-form__pseudo-checkbox:hover {
   background-color: #f90707;
  width: 19px;
@@ -162,20 +160,20 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__textfield{
+.search-form__textfield {
   font-size: inherit;
   font-family: inherit;
   appearance: none;
   background-color: transparent;
-  border-width:1px 0;
-  border-style:solid;
-  border-color:#fff;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #fff;
   outline-color: transparent;
   color: #fff;
   line-height: 24px;
   min-width: 226px;
 }
-.search-form__textfield:active{
+.search-form__textfield:active {
   border: 0px;
   outline: 1px solid #fff;
 }
@@ -184,20 +182,20 @@ ol {
   border-style:solid;
   border-color:#fff;
 } */
-.search-form__textfield:focus{
+.search-form__textfield:focus {
   outline: none;
 }
-.search-form__label:has(:focus-visible){
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
-.search-form__textfield::placeholder{
+.search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
-.search-form__submit-button{
- min-width: 194px;
- align-self: end;
+.search-form__submit-button {
+  min-width: 194px;
+  align-self: end;
 }
 
 /* .search-form__submit-button:active {
@@ -212,25 +210,24 @@ ol {
   border:1px solid #fff;
 } */
 
-.content__details{
+.content__details {
   display: flex;
   flex-direction: column;
   min-width: 399px;
   min-height: 534px;
-  gap:26px;
- 
+  gap: 26px;
 }
-.title{
+.title {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
 }
-.content__accent{
+.content__accent {
   color: #545050;
 }
-.content__list{
+.content__list {
   position: relative;
   max-height: 298px;
   overflow-y: scroll;
@@ -239,62 +236,61 @@ ol {
 /* .content__list-item{
  padding: 3px;
 } */
-.content__card-link:focus{
-  border:0;
-  outline:none;
-  box-shadow:none;
+.content__card-link:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none;
 }
 
-.content__card-link:focus-visible{
-  border:1px solid #fff;
+.content__card-link:focus-visible {
+  border: 1px solid #fff;
   outline: none;
 }
 
-.content__card-link{
+.content__card-link {
   padding: 2px 0px 2px 2px;
   display: block;
   text-decoration: none;
   color: #fff;
 }
-.content__card-link_current{
+.content__card-link_current {
   background-color: #545050;
 }
-.content__list-item:not(:last-of-type){
+.content__list-item:not(:last-of-type) {
   margin-bottom: 30px;
 }
-.content__video-card{
+.content__video-card {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; 
-  
+  align-items: flex-start;
 }
-.content__video-card:active{
+.content__video-card:active {
   background-color: #545050;
 }
-.content__video-card:hover{
+.content__video-card:hover {
   text-decoration: underline;
 }
 
-.content__video-card-thumbnail{
+.content__video-card-thumbnail {
   max-width: 194px;
   max-height: 103px;
   object-fit: cover;
 }
-.content__video-card-title{
+.content__video-card-title {
   font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 100%;
   font-weight: 700;
   text-transform: uppercase;
 }
-.content__video-card-description-container{
+.content__video-card-description-container {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
-.content__video-card-description{
- line-height: 16.2px;
+.content__video-card-description {
+  line-height: 16.2px;
 }
-.more-button{
+.more-button {
   min-width: 100%;
 }
