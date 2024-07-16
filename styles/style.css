@@ -29,6 +29,7 @@ html {
   color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
+  appearance: none;
 }
 
 .button:focus {
@@ -178,7 +179,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  margin-right: 5px;
+  margin-inline-end: 5px;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -252,7 +253,7 @@ ol {
 }
 
 .content__list-item:not(:last-of-type) {
-  margin-bottom: 30px;
+  margin-block-end: 30px;
 }
 
 .content__video-card {
